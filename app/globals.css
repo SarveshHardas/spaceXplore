@@ -25,6 +25,10 @@
     }
 }
 
+.clip-path{
+    clipPath: polygon(0 0, 95% 0, 100% 10%, 100% 90%, 95% 100%, 0 100%);
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

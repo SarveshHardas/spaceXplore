@@ -1,5 +1,6 @@
 import Image from "next/image";
 import localFont from "next/font/local";
+import Navbar from "./Navbar";
 
 const melete = localFont({
     src:[
@@ -31,8 +32,10 @@ const melete = localFont({
 
 export default function Hero() {
     return (
-        <div className="flex justify-center items-center text-7xl bg-[url('/bg.jpg')] mx-auto bg-cover min-h-screen">
-            <p className={"font-melete font-bold capitalize"}>PlanetXplore</p>
+        <div className="flex justify-between items-center bg-[url('/bg.jpg')] mx-auto bg-cover min-h-screen">
+            <Navbar/>
+            <p className={"font-melete font-bold text-6xl capitalize"}>PlanetXplore</p>
+            <div/>
         </div>
     );
 }
