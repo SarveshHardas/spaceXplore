@@ -18,7 +18,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href={"/SolarSystem"}>
+                    <Link href="/SolarSystem">
                         <Image src={"/orbit.png"} alt={"solarSystem"} width={45} height={45}/>
                     </Link>
                 </li>
