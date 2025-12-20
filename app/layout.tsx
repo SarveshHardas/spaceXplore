@@ -18,7 +18,7 @@ export default function RootLayout({
         <body
             className={melete.variable}
         >
-        <div className="flex justify-between items-center min-h-screen">
+        <div className="flex justify-between items-center bg-[url('/bg.jpg')] mx-auto bg-cover min-h-screen">
             <Navbar/>
             {children}
             <div/>
