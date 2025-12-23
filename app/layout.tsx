@@ -30,10 +30,10 @@ export default function RootLayout({
                 />
             </div>
             <div className="relative z-10 flex min-h-screen">
-                <div className="flex items-center">
+                <aside className={"fixed left-0 top-1/2 -translate-y-1/2 z-50"}>
                     <Navbar/>
-                </div>
-                <main className="flex-1 flex items-center justify-center">
+                </aside>
+                <main className="flex-1 ">
                     {children}
                 </main>
 

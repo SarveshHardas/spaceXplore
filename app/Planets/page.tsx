@@ -1,9 +1,9 @@
 import PlanetCarousel from "@/components/PlanetCarousel";
 
-const Page = () => {
+const PlanetPage = () => {
     return (
         <PlanetCarousel/>
     )
 }
 
-export default Page;
+export default PlanetPage;
