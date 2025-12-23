@@ -1,7 +1,6 @@
 import {Rocket} from "@/components/ui/Rocket";
-import Galaxy from "@/components/ui/Galaxy";
 
-const Page = () => {
+const SolarSystem = () => {
     return (
         <div className={"flex flex-col justify-around items-center gap-7"}>
             <h1 className={"text-4xl md:text-6xl font-bold font-serif tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white will-change-transform"}>Explore
@@ -22,4 +21,4 @@ const Page = () => {
     )
 }
 
-export default Page;
+export default SolarSystem;

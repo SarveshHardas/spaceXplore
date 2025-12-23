@@ -1,5 +1,10 @@
 export const planets = [
     {
+        name: "Sun",
+        image: "/planets/sun.png",
+        description: "Center and energy house of the entire solar system",
+    },
+    {
         name: "Mercury",
         image: "/planets/mercury.png",
         description: "Smallest planet and closest to the Sun.",
